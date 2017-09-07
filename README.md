@@ -6,6 +6,7 @@ Usage: /path_to/file_info.py [path_to_directory_to_scan]
 
 Output (example):
 <wrap off>
+
 Fragmentation within /home/user/Video
 
 Totally: 124 files (124 not empty) stored within 28844 fragments
