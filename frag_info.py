@@ -12,7 +12,7 @@ else:
   wd = os.getcwd()
 print('Fragmentation within %s\n' % wd)
 
-cmd = ("find %s -xdev -type f -exec filefrag '{}' +  | " % wd +
+cmd = ("find \"%s\" -xdev -type f -exec filefrag '{}' +  | " % wd +
        r"sed -e 's/^\(.*\): \(.*\) extent.* found$/\2 \1/' | "
        "sort -nr > /tmp/frag.log")
 subprocess.call([cmd], shell=True)
