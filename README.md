@@ -2,7 +2,7 @@
 File System Fragmentation calculation CLI utility for Linux (using filefrag command) 
 
 
-Usage: /path_to/file_info.py [path_to_directory_to_scan]
+Usage: /path_to/frag_info.py [path_to_directory_to_scan]
 
 Output (example):
 <wrap off>
